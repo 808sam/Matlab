@@ -14,7 +14,6 @@ Notable points:
 Harvesting every ~7 minutes gives >99% the yield of harvesting every game tick.
 Equivalent yield to "low lag" peak when harvesting every ~20.8 minutes
 
-
 For the non-technical
 1 game tick = 1/20 a second
 Mulitply yield values by 72000 to get how much sugarcane you can expect per hour from each sugarcane planted.
