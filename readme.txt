@@ -7,8 +7,8 @@ Included is data from running the script from 1 tick to 70000 ticks at every tic
 
 Findings:
 Maximum yield of 4.883E-05 yield per sugarcane per tick when harvesting every game tick.
-Local "low lag" maximum of 3.827E-05 when harvesting every 46041 ticks (38.4 minutes). 78% of maximum
-Local minimum of 3.444E-05 when harvesting every 32859 ticks (27.4 minutes). 70% of maximum
+Local "low lag" maximum of 3.827E-05 when harvesting every 46040 ticks (38.4 minutes). 78% of maximum
+Local minimum of 3.444E-05 when harvesting every 32858 ticks (27.4 minutes). 70% of maximum
 
 Notable points:
 Harvesting every ~7 minutes gives >99% the yield of harvesting every game tick.
