@@ -10,13 +10,9 @@ function distribution = getMultipleTickDistribution(ticks, tickSpeed, maxCare)
 
     % init values
     numTries = ticks*tickSpeed;
-    distribution = zeros(1, maxCare);
     tickChance = getTickChance();
 
     % get chances of each number of random ticks for all the different wait
     % times
-    for i = 0:maxCare
-        % binomial distribution
-        distribution(i+1) = binopdf(i, numTries, tickChance);
-    end
+    distribution = binopdf(0:maxCare, numTries, tickChance);
 end
