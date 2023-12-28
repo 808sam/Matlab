@@ -1,6 +1,6 @@
 A matlab script for optimizing sugarcane harvesting in minecraft:
 
-This project calculates probability distributions for sugarcane growth in minecraft which is uses to predict steady state yield when harvested at different periods.
+This project calculates probability distributions for sugarcane growth in minecraft which is used to predict steady state yield when harvested at different periods.
 The top level function is "plotSugarCaneYieldDistribution" (all other functions are helper functions). 
 
 Included is data from running the script from 1 tick to 70000 ticks at every tick interval.
@@ -14,6 +14,6 @@ Notable points:
 Harvesting every ~7 minutes gives >99% the yield of harvesting every game tick.
 Equivalent yield to "low lag" peak when harvesting every ~20.8 minutes
 
-For the non-technical
+For the non-mincraft technical
 1 game tick = 1/20 a second
 Mulitply yield values by 72000 to get how much sugarcane you can expect per hour from each sugarcane planted.
